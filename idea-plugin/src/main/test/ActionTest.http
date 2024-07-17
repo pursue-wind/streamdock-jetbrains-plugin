@@ -1,0 +1,59 @@
+### GET request with a header
+#GET http://localhost:21420/action/NewProject
+#auth: pwd
+
+### Remote Call Run Main
+GET http://localhost:21420/api/action/Run?name=Main
+Accept: application/json
+
+### Remote Call Debug Main
+GET http://localhost:21420/api/action/Debug?name=Main
+Accept: application/json
+
+### For built-in Server test
+GET http://localhost:63344/api/action/Run?mode=Run&name=Main
+Accept: application/json
+
+### For built-in Server test
+GET http://localhost:63343/api/action/NewProject
+Accept: application/json
+
+### For built-in Server test
+GET http://localhost:63343/api/action/Run
+Accept: application/json
+
+### For built-in Server test
+GET http://localhost:63343/api/action/Debug
+Accept: application/json
+
+### GET request with disabled redirects
+GET http://localhost:63343/api/action/Resume
+Accept: application/json
+
+### StepOver
+GET http://localhost:63343/api/action/StepOver
+Accept: application/json
+
+### StepOver
+GET http://localhost:63343/api/action/OpenFile
+Accept: application/json
+
+
+### MergeAllWindowsAction
+GET http://localhost:63343/api/action/MergeAllWindowsAction
+Accept: application/json
+
+
+### org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction
+GET http://localhost:63343/api/action/org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction
+Accept: application/json
+
+
+
+### Vcs.ShowTabbedFileHistory
+GET http://localhost:63344/api/action/Vcs.ShowTabbedFileHistory
+Accept: application/json
+
+### MergeAllWindowsAction
+GET http://localhost:63344/api/action/MergeAllWindowsAction
+Accept: application/json

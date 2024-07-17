@@ -1,0 +1,193 @@
+{
+  "SDKVersion": 2,
+  "Author": "Jacky Liu",
+  "Category": "JetBrains IDE",
+  "CategoryIcon": "icons/category/idea",
+  "CodePath": "public/plugin.html",
+  "PropertyInspectorPath": "public/property-inspector.html",
+  "Description": "Enables Stream Deck integration with JetBrains IDEs such as IDEA, Rider, WebStorm, Android Studio etc. This plugin requires JetBrains IDE plugin Stream Deck installed.",
+  "Name": "JetBrains IDE",
+  "Icon": "icons/idea",
+  "URL": "https://github.com/JetBrains/intellij-streamdeck-plugin",
+  "Version": "1.0.4",
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.11"
+    },
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Software": {
+    "MinimumVersion": "5.0"
+  },
+  "Actions": [
+    {
+      "Icon": "icons/actions/web@20x20_dark",
+      "Name": "Open Action Browser",
+      "States": [
+        {
+          "Image": "icons/web@72x72_dark"
+        }
+      ],
+      "Tooltip": "Browse and copy action ID in IDE",
+      "SupportedInMultiActions": true,
+      "UUID": "com.jetbrains.idea.action.browser"
+    },
+    {
+      "Icon": "icons/actions/unknown@20x20_dark",
+      "Name": "Customized Action",
+      "States": [
+        {
+          "Image": "icons/unknown@72x72_dark"
+        }
+      ],
+      "Tooltip": "Customized Action",
+      "SupportedInMultiActions": true,
+      "UUID": "com.jetbrains.idea.empty.action"
+    },
+    {
+      "Icon": "icons/actions/update@20x20_dark",
+      "Name": "Update Project",
+      "States": [
+        {
+          "Image": "icons/update@20x20_dark"
+        }
+      ],
+      "Tooltip": "Update Project",
+      "SupportedInMultiActions": true,
+      "UUID": "com.jetbrains.idea.git.pull"
+    },
+    {
+      "Icon": "icons/actions/createNewProjectTab",
+      "Name": "New Project",
+      "States": [
+        {
+          "Image": "icons/createNewProjectTab"
+        }
+      ],
+      "Tooltip": "New Project",
+      "SupportedInMultiActions": true,
+      "UUID": "com.jetbrains.idea.new"
+    },
+    {
+      "Icon": "icons/actions/run_dark",
+      "Name": "Run",
+      "States": [
+        {
+          "Image": "icons/run_dark"
+        }
+      ],
+      "Tooltip": "Run",
+      "SupportedInMultiActions": true,
+      "UUID": "com.jetbrains.idea.run"
+    },
+    {
+      "Icon": "icons/actions/debug_dark",
+      "Name": "Debug",
+      "States": [
+        {
+          "Image": "icons/debug_dark"
+        }
+      ],
+      "Tooltip": "Debug",
+      "SupportedInMultiActions": true,
+      "UUID": "com.jetbrains.idea.debug"
+    },
+    {
+      "Icon": "icons/actions/stepOver_dark",
+      "Name": "Step Over",
+      "SupportedInMultiActions": true,
+      "States": [
+        {
+          "Image": "icons/stepOver_dark"
+        }
+      ],
+      "Tooltip": "Step Over",
+      "UUID": "com.jetbrains.idea.step.over"
+    },
+    {
+      "Icon": "icons/actions/stepInto_dark",
+      "Name": "Step Into",
+      "SupportedInMultiActions": true,
+      "States": [
+        {
+          "Image": "icons/stepInto_dark"
+        }
+      ],
+      "Tooltip": "Step Into",
+      "UUID": "com.jetbrains.idea.step.into"
+    },
+    {
+      "Icon": "icons/actions/stepOut_dark",
+      "Name": "Step Out",
+      "SupportedInMultiActions": true,
+      "States": [
+        {
+          "Image": "icons/stepOut_dark"
+        }
+      ],
+      "UUID": "com.jetbrains.idea.action.step.out"
+    },
+    {
+      "Icon": "icons/actions/resume_dark",
+      "Name": "Resume",
+      "States": [
+        {
+          "Image": "icons/resume_dark"
+        }
+      ],
+      "Tooltip": "Resume",
+      "SupportedInMultiActions": true,
+      "UUID": "com.jetbrains.idea.resume"
+    },
+    {
+      "Icon": "icons/actions/pause_dark",
+      "Name": "Pause",
+      "States": [
+        {
+          "Image": "icons/pause_dark"
+        }
+      ],
+      "Tooltip": "Pause",
+      "SupportedInMultiActions": true,
+      "UUID": "com.jetbrains.idea.action.pause"
+    },
+    {
+      "Icon": "icons/actions/find_dark",
+      "Name": "Search Everywhere",
+      "States": [
+        {
+          "Image": "icons/find_dark"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "UUID": "com.jetbrains.idea.search.everywhere"
+    },
+    {
+      "Icon": "icons/actions/stop_dark",
+      "Name": "Stop",
+      "States": [
+        {
+          "Image": "icons/stop_dark"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "UUID": "com.jetbrains.idea.action.stop"
+    },
+    {
+      "Icon": "icons/actions/projectStructure_dark",
+      "Name": "Project Structure",
+      "States": [
+        {
+          "Image": "icons/projectStructure_dark"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "UUID": "com.jetbrains.idea.action.show.project.structure"
+    }
+  ]
+
+}
